@@ -139,6 +139,7 @@
             this.btnRunSQL.TabIndex = 10;
             this.btnRunSQL.Text = "Wykonaj SQL";
             this.btnRunSQL.UseVisualStyleBackColor = true;
+            this.btnRunSQL.Click += new System.EventHandler(this.btnRunSQL_Click);
             // 
             // lvGrid
             // 
